@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017E54D3C74430C4D144980D /* Pods_NibmConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143D1EC729B9CC65ADFCEF22 /* Pods_NibmConnectTests.framework */; };
+		8FB7E41FDCCAE36FA7A97C81 /* Pods_NibmConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBABE9AB10571292C5CC8CC1 /* Pods_NibmConnect.framework */; };
+		AC336AB8228F988900909EF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC336AB7228F988900909EF7 /* GoogleService-Info.plist */; };
+		AC336AC0228FA6D600909EF7 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC336ABF228FA6D600909EF7 /* SignUp.storyboard */; };
+		AC336AC2228FC17D00909EF7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC336AC1228FC17D00909EF7 /* Home.storyboard */; };
+		AC336AC922901B9C00909EF7 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC336AC822901B9C00909EF7 /* SignIn.storyboard */; };
+		AC336ACC2290307900909EF7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336ACB2290307900909EF7 /* SignUpViewController.swift */; };
+		AC336ACE2290308500909EF7 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336ACD2290308500909EF7 /* SignInViewController.swift */; };
+		AC336AD02290309400909EF7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336ACF2290309400909EF7 /* HomeViewController.swift */; };
+		AC336AD22290328800909EF7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336AD12290328800909EF7 /* UIView+Extension.swift */; };
+		AC336AD42290338800909EF7 /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336AD32290338800909EF7 /* RoundedWhiteButton.swift */; };
 		AC52234B228F93D400BB121E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52234A228F93D400BB121E /* AppDelegate.swift */; };
 		AC52234D228F93D400BB121E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52234C228F93D400BB121E /* ViewController.swift */; };
 		AC522350228F93D400BB121E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC52234E228F93D400BB121E /* Main.storyboard */; };
@@ -26,6 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143D1EC729B9CC65ADFCEF22 /* Pods_NibmConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NibmConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248D84493BC55E729949529B /* Pods-NibmConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmConnectTests.debug.xcconfig"; path = "Target Support Files/Pods-NibmConnectTests/Pods-NibmConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E1334F16A585209255CCB9E /* Pods-NibmConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmConnect.release.xcconfig"; path = "Target Support Files/Pods-NibmConnect/Pods-NibmConnect.release.xcconfig"; sourceTree = "<group>"; };
+		5677B3CEA572399385946B96 /* Pods-NibmConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmConnectTests.release.xcconfig"; path = "Target Support Files/Pods-NibmConnectTests/Pods-NibmConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		860A392155F3BEC877BACD9F /* Pods-NibmConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmConnect.debug.xcconfig"; path = "Target Support Files/Pods-NibmConnect/Pods-NibmConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		AC336AB7228F988900909EF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC336ABF228FA6D600909EF7 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		AC336AC1228FC17D00909EF7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		AC336AC822901B9C00909EF7 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		AC336ACB2290307900909EF7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AC336ACD2290308500909EF7 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		AC336ACF2290309400909EF7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AC336AD12290328800909EF7 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../iOS Projects/nibm/firebase login home/firebase login home/Views/UIView+Extension.swift"; sourceTree = "<group>"; };
+		AC336AD32290338800909EF7 /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
 		AC522347228F93D400BB121E /* NibmConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibmConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC52234A228F93D400BB121E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC52234C228F93D400BB121E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +61,7 @@
 		AC52235B228F93D500BB121E /* NibmConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibmConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC52235F228F93D500BB121E /* NibmConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibmConnectTests.swift; sourceTree = "<group>"; };
 		AC522361228F93D500BB121E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBABE9AB10571292C5CC8CC1 /* Pods_NibmConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NibmConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB7E41FDCCAE36FA7A97C81 /* Pods_NibmConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +77,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017E54D3C74430C4D144980D /* Pods_NibmConnectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F82EADA1C07C19BA5ACA7AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBABE9AB10571292C5CC8CC1 /* Pods_NibmConnect.framework */,
+				143D1EC729B9CC65ADFCEF22 /* Pods_NibmConnectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC336AB9228F98BB00909EF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC336ABA228F98C100909EF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC336AD12290328800909EF7 /* UIView+Extension.swift */,
+				AC336AD32290338800909EF7 /* RoundedWhiteButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC336ABB228F98C700909EF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC52234C228F93D400BB121E /* ViewController.swift */,
+				AC336ACB2290307900909EF7 /* SignUpViewController.swift */,
+				AC336ACD2290308500909EF7 /* SignInViewController.swift */,
+				AC336ACF2290309400909EF7 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC336ABC228F98FA00909EF7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC522353228F93D500BB121E /* LaunchScreen.storyboard */,
+				AC52234E228F93D400BB121E /* Main.storyboard */,
+				AC336ABF228FA6D600909EF7 /* SignUp.storyboard */,
+				AC336AC1228FC17D00909EF7 /* Home.storyboard */,
+				AC336AC822901B9C00909EF7 /* SignIn.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		AC52233E228F93D400BB121E = {
 			isa = PBXGroup;
 			children = (
 				AC522349228F93D400BB121E /* NibmConnect */,
 				AC52235E228F93D500BB121E /* NibmConnectTests */,
 				AC522348228F93D400BB121E /* Products */,
+				DE926CB9E90D3C7283D3C839 /* Pods */,
+				6F82EADA1C07C19BA5ACA7AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +155,14 @@
 		AC522349228F93D400BB121E /* NibmConnect */ = {
 			isa = PBXGroup;
 			children = (
+				AC336ABC228F98FA00909EF7 /* Storyboard */,
+				AC336ABB228F98C700909EF7 /* Controller */,
+				AC336ABA228F98C100909EF7 /* View */,
+				AC336AB9228F98BB00909EF7 /* Model */,
 				AC52234A228F93D400BB121E /* AppDelegate.swift */,
-				AC52234C228F93D400BB121E /* ViewController.swift */,
-				AC52234E228F93D400BB121E /* Main.storyboard */,
 				AC522351228F93D500BB121E /* Assets.xcassets */,
-				AC522353228F93D500BB121E /* LaunchScreen.storyboard */,
 				AC522356228F93D500BB121E /* Info.plist */,
+				AC336AB7228F988900909EF7 /* GoogleService-Info.plist */,
 			);
 			path = NibmConnect;
 			sourceTree = "<group>";
@@ -96,6 +176,17 @@
 			path = NibmConnectTests;
 			sourceTree = "<group>";
 		};
+		DE926CB9E90D3C7283D3C839 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				860A392155F3BEC877BACD9F /* Pods-NibmConnect.debug.xcconfig */,
+				3E1334F16A585209255CCB9E /* Pods-NibmConnect.release.xcconfig */,
+				248D84493BC55E729949529B /* Pods-NibmConnectTests.debug.xcconfig */,
+				5677B3CEA572399385946B96 /* Pods-NibmConnectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC522364228F93D500BB121E /* Build configuration list for PBXNativeTarget "NibmConnect" */;
 			buildPhases = (
+				C50542351777F6D636725A75 /* [CP] Check Pods Manifest.lock */,
 				AC522343228F93D400BB121E /* Sources */,
 				AC522344228F93D400BB121E /* Frameworks */,
 				AC522345228F93D400BB121E /* Resources */,
+				1937ACD70DFF756142562CD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC522367228F93D500BB121E /* Build configuration list for PBXNativeTarget "NibmConnectTests" */;
 			buildPhases = (
+				E1C417B75308CAB148F68E7E /* [CP] Check Pods Manifest.lock */,
 				AC522357228F93D500BB121E /* Sources */,
 				AC522358228F93D500BB121E /* Frameworks */,
 				AC522359228F93D500BB121E /* Resources */,
@@ -178,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC522355228F93D500BB121E /* LaunchScreen.storyboard in Resources */,
+				AC336AB8228F988900909EF7 /* GoogleService-Info.plist in Resources */,
 				AC522352228F93D500BB121E /* Assets.xcassets in Resources */,
+				AC336AC2228FC17D00909EF7 /* Home.storyboard in Resources */,
 				AC522350228F93D400BB121E /* Main.storyboard in Resources */,
+				AC336AC922901B9C00909EF7 /* SignIn.storyboard in Resources */,
+				AC336AC0228FA6D600909EF7 /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +290,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1937ACD70DFF756142562CD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NibmConnect/Pods-NibmConnect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NibmConnect/Pods-NibmConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C50542351777F6D636725A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NibmConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C417B75308CAB148F68E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NibmConnectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC522343228F93D400BB121E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC336AD22290328800909EF7 /* UIView+Extension.swift in Sources */,
+				AC336AD02290309400909EF7 /* HomeViewController.swift in Sources */,
+				AC336ACE2290308500909EF7 /* SignInViewController.swift in Sources */,
+				AC336ACC2290307900909EF7 /* SignUpViewController.swift in Sources */,
 				AC52234D228F93D400BB121E /* ViewController.swift in Sources */,
 				AC52234B228F93D400BB121E /* AppDelegate.swift in Sources */,
+				AC336AD42290338800909EF7 /* RoundedWhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +544,7 @@
 		};
 		AC522365228F93D500BB121E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860A392155F3BEC877BACD9F /* Pods-NibmConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +562,7 @@
 		};
 		AC522366228F93D500BB121E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1334F16A585209255CCB9E /* Pods-NibmConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +580,7 @@
 		};
 		AC522368228F93D500BB121E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248D84493BC55E729949529B /* Pods-NibmConnectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +601,7 @@
 		};
 		AC522369228F93D500BB121E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5677B3CEA572399385946B96 /* Pods-NibmConnectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
