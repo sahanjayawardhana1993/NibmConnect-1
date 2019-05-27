@@ -13,7 +13,7 @@
         <!--Navigation Controller-->
         <scene sceneID="23z-N1-nsu">
             <objects>
-                <navigationController id="ElP-pu-scB" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="mainViewController" id="ElP-pu-scB" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PKJ-aA-Xg4">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -29,7 +29,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NibmConnect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="NibmConnect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
         <!--SignIn-->
         <scene sceneID="dSQ-rx-L25">
             <objects>
-                <viewControllerPlaceholder storyboardName="SignIn" id="HxY-n5-cE8" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="SignIn" storyboardName="SignIn" id="HxY-n5-cE8" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hRV-OR-9P2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="481" y="-302"/>
@@ -57,7 +57,7 @@
         <!--Home-->
         <scene sceneID="Z6F-03-TEl">
             <objects>
-                <viewControllerPlaceholder storyboardName="Home" id="neZ-V5-SnE" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="Home" storyboardName="Home" id="neZ-V5-SnE" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17h-c2-1Sb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="522" y="57"/>

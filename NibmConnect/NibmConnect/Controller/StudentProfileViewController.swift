@@ -9,22 +9,27 @@
 import UIKit
 
 class StudentProfileViewController: UIViewController {
-
+    
+    @IBOutlet weak var facebook: UILabel!
+    @IBOutlet weak var telephone: UILabel!
+    @IBOutlet weak var firstName: UILabel!
+    @IBOutlet weak var lastName: UILabel!
+    @IBOutlet weak var studentImage: UIImageView!
+    
+    var home: Home?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.setGradientBackground(colorOne: primaryColor, colorTwo: secondaryColor)
+        
+        studentImage.layer.cornerRadius = studentImage.bounds.height / 2
+        studentImage.clipsToBounds = true
+        self.firstName.text = home?.FirstName
+        self.lastName.text = home?.LastName
+        self.telephone.text = home?.PhoneNumber
+        ImageService.getImage(withURL: home!.PhotoUrl){ image in
+            self.studentImage.image = image
+        }
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

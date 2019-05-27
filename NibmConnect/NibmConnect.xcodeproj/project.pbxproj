@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017E54D3C74430C4D144980D /* Pods_NibmConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143D1EC729B9CC65ADFCEF22 /* Pods_NibmConnectTests.framework */; };
 		8FB7E41FDCCAE36FA7A97C81 /* Pods_NibmConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBABE9AB10571292C5CC8CC1 /* Pods_NibmConnect.framework */; };
 		AC336AB8228F988900909EF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC336AB7228F988900909EF7 /* GoogleService-Info.plist */; };
 		AC336AC0228FA6D600909EF7 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC336ABF228FA6D600909EF7 /* SignUp.storyboard */; };
@@ -17,13 +16,26 @@
 		AC336ACE2290308500909EF7 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336ACD2290308500909EF7 /* SignInViewController.swift */; };
 		AC336AD02290309400909EF7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336ACF2290309400909EF7 /* HomeViewController.swift */; };
 		AC336AD22290328800909EF7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336AD12290328800909EF7 /* UIView+Extension.swift */; };
-		AC336AD42290338800909EF7 /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336AD32290338800909EF7 /* RoundedWhiteButton.swift */; };
+		AC49C03B22979BCE00DEFAFF /* StudentProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC49C03A22979BCE00DEFAFF /* StudentProfile.storyboard */; };
+		AC49C03D2297A27A00DEFAFF /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49C03C2297A27A00DEFAFF /* StudentProfileViewController.swift */; };
 		AC52234B228F93D400BB121E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52234A228F93D400BB121E /* AppDelegate.swift */; };
 		AC52234D228F93D400BB121E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52234C228F93D400BB121E /* ViewController.swift */; };
 		AC522350228F93D400BB121E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC52234E228F93D400BB121E /* Main.storyboard */; };
 		AC522352228F93D500BB121E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC522351228F93D500BB121E /* Assets.xcassets */; };
 		AC522355228F93D500BB121E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC522353228F93D500BB121E /* LaunchScreen.storyboard */; };
 		AC522360228F93D500BB121E /* NibmConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52235F228F93D500BB121E /* NibmConnectTests.swift */; };
+		ACB24B052291C6A200614B9B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB24B032291C6A200614B9B /* HomeTableViewCell.swift */; };
+		ACB24B062291C6A200614B9B /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB24B042291C6A200614B9B /* HomeTableViewCell.xib */; };
+		ACB24B082291D8BD00614B9B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB24B072291D8BD00614B9B /* Home.swift */; };
+		ACE3F3A422984F3D001B8BE6 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE3F3A322984F3D001B8BE6 /* MyProfile.storyboard */; };
+		ACE3F3A622985368001B8BE6 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3F3A522985368001B8BE6 /* MyProfileViewController.swift */; };
+		ACE3F3A822985468001B8BE6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3F3A722985468001B8BE6 /* User.swift */; };
+		ACE3F3AA2298632E001B8BE6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3F3A92298632E001B8BE6 /* UserService.swift */; };
+		ACF3AFFC22927FCE0025162F /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3AFFB22927FCE0025162F /* ImageService.swift */; };
+		ACF3B0002292843A0025162F /* HomeWork.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF3AFFF2292843A0025162F /* HomeWork.storyboard */; };
+		ACF3B0032292F6AA0025162F /* HomeWorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3B0012292F6AA0025162F /* HomeWorkTableViewCell.swift */; };
+		ACF3B0042292F6AA0025162F /* HomeWorkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF3B0022292F6AA0025162F /* HomeWorkTableViewCell.xib */; };
+		ACF3B0062292F7AB0025162F /* HomeWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3B0052292F7AB0025162F /* HomeWorkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +50,7 @@
 
 /* Begin PBXFileReference section */
 		143D1EC729B9CC65ADFCEF22 /* Pods_NibmConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NibmConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		248D84493BC55E729949529B /* Pods-NibmConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmConnectTests.debug.xcconfig"; path = "Target Support Files/Pods-NibmConnectTests/Pods-NibmConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E1334F16A585209255CCB9E /* Pods-NibmConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmConnect.release.xcconfig"; path = "Target Support Files/Pods-NibmConnect/Pods-NibmConnect.release.xcconfig"; sourceTree = "<group>"; };
-		5677B3CEA572399385946B96 /* Pods-NibmConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmConnectTests.release.xcconfig"; path = "Target Support Files/Pods-NibmConnectTests/Pods-NibmConnectTests.release.xcconfig"; sourceTree = "<group>"; };
 		860A392155F3BEC877BACD9F /* Pods-NibmConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmConnect.debug.xcconfig"; path = "Target Support Files/Pods-NibmConnect/Pods-NibmConnect.debug.xcconfig"; sourceTree = "<group>"; };
 		AC336AB7228F988900909EF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC336ABF228FA6D600909EF7 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
@@ -50,7 +60,8 @@
 		AC336ACD2290308500909EF7 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		AC336ACF2290309400909EF7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AC336AD12290328800909EF7 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../iOS Projects/nibm/firebase login home/firebase login home/Views/UIView+Extension.swift"; sourceTree = "<group>"; };
-		AC336AD32290338800909EF7 /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
+		AC49C03A22979BCE00DEFAFF /* StudentProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentProfile.storyboard; sourceTree = "<group>"; };
+		AC49C03C2297A27A00DEFAFF /* StudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
 		AC522347228F93D400BB121E /* NibmConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibmConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC52234A228F93D400BB121E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC52234C228F93D400BB121E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +72,18 @@
 		AC52235B228F93D500BB121E /* NibmConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibmConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC52235F228F93D500BB121E /* NibmConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibmConnectTests.swift; sourceTree = "<group>"; };
 		AC522361228F93D500BB121E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB24B032291C6A200614B9B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		ACB24B042291C6A200614B9B /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		ACB24B072291D8BD00614B9B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ACE3F3A322984F3D001B8BE6 /* MyProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
+		ACE3F3A522985368001B8BE6 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		ACE3F3A722985468001B8BE6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ACE3F3A92298632E001B8BE6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		ACF3AFFB22927FCE0025162F /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		ACF3AFFF2292843A0025162F /* HomeWork.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeWork.storyboard; sourceTree = "<group>"; };
+		ACF3B0012292F6AA0025162F /* HomeWorkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkTableViewCell.swift; sourceTree = "<group>"; };
+		ACF3B0022292F6AA0025162F /* HomeWorkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeWorkTableViewCell.xib; sourceTree = "<group>"; };
+		ACF3B0052292F7AB0025162F /* HomeWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkViewController.swift; sourceTree = "<group>"; };
 		EBABE9AB10571292C5CC8CC1 /* Pods_NibmConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NibmConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +100,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017E54D3C74430C4D144980D /* Pods_NibmConnectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +118,8 @@
 		AC336AB9228F98BB00909EF7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ACB24B072291D8BD00614B9B /* Home.swift */,
+				ACE3F3A722985468001B8BE6 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,7 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				AC336AD12290328800909EF7 /* UIView+Extension.swift */,
-				AC336AD32290338800909EF7 /* RoundedWhiteButton.swift */,
+				ACF3AFFB22927FCE0025162F /* ImageService.swift */,
+				ACE3F3A92298632E001B8BE6 /* UserService.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +141,9 @@
 				AC336ACB2290307900909EF7 /* SignUpViewController.swift */,
 				AC336ACD2290308500909EF7 /* SignInViewController.swift */,
 				AC336ACF2290309400909EF7 /* HomeViewController.swift */,
+				ACF3B0052292F7AB0025162F /* HomeWorkViewController.swift */,
+				AC49C03C2297A27A00DEFAFF /* StudentProfileViewController.swift */,
+				ACE3F3A522985368001B8BE6 /* MyProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -128,6 +156,9 @@
 				AC336ABF228FA6D600909EF7 /* SignUp.storyboard */,
 				AC336AC1228FC17D00909EF7 /* Home.storyboard */,
 				AC336AC822901B9C00909EF7 /* SignIn.storyboard */,
+				ACF3AFFF2292843A0025162F /* HomeWork.storyboard */,
+				AC49C03A22979BCE00DEFAFF /* StudentProfile.storyboard */,
+				ACE3F3A322984F3D001B8BE6 /* MyProfile.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -155,6 +186,7 @@
 		AC522349228F93D400BB121E /* NibmConnect */ = {
 			isa = PBXGroup;
 			children = (
+				ACB24B022291C67B00614B9B /* TableView */,
 				AC336ABC228F98FA00909EF7 /* Storyboard */,
 				AC336ABB228F98C700909EF7 /* Controller */,
 				AC336ABA228F98C100909EF7 /* View */,
@@ -176,13 +208,22 @@
 			path = NibmConnectTests;
 			sourceTree = "<group>";
 		};
+		ACB24B022291C67B00614B9B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				ACB24B032291C6A200614B9B /* HomeTableViewCell.swift */,
+				ACB24B042291C6A200614B9B /* HomeTableViewCell.xib */,
+				ACF3B0012292F6AA0025162F /* HomeWorkTableViewCell.swift */,
+				ACF3B0022292F6AA0025162F /* HomeWorkTableViewCell.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 		DE926CB9E90D3C7283D3C839 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				860A392155F3BEC877BACD9F /* Pods-NibmConnect.debug.xcconfig */,
 				3E1334F16A585209255CCB9E /* Pods-NibmConnect.release.xcconfig */,
-				248D84493BC55E729949529B /* Pods-NibmConnectTests.debug.xcconfig */,
-				5677B3CEA572399385946B96 /* Pods-NibmConnectTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -213,7 +254,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC522367228F93D500BB121E /* Build configuration list for PBXNativeTarget "NibmConnectTests" */;
 			buildPhases = (
-				E1C417B75308CAB148F68E7E /* [CP] Check Pods Manifest.lock */,
 				AC522357228F93D500BB121E /* Sources */,
 				AC522358228F93D500BB121E /* Frameworks */,
 				AC522359228F93D500BB121E /* Resources */,
@@ -273,11 +313,16 @@
 			files = (
 				AC522355228F93D500BB121E /* LaunchScreen.storyboard in Resources */,
 				AC336AB8228F988900909EF7 /* GoogleService-Info.plist in Resources */,
+				ACE3F3A422984F3D001B8BE6 /* MyProfile.storyboard in Resources */,
+				ACB24B062291C6A200614B9B /* HomeTableViewCell.xib in Resources */,
+				ACF3B0042292F6AA0025162F /* HomeWorkTableViewCell.xib in Resources */,
 				AC522352228F93D500BB121E /* Assets.xcassets in Resources */,
 				AC336AC2228FC17D00909EF7 /* Home.storyboard in Resources */,
 				AC522350228F93D400BB121E /* Main.storyboard in Resources */,
 				AC336AC922901B9C00909EF7 /* SignIn.storyboard in Resources */,
+				AC49C03B22979BCE00DEFAFF /* StudentProfile.storyboard in Resources */,
 				AC336AC0228FA6D600909EF7 /* SignUp.storyboard in Resources */,
+				ACF3B0002292843A0025162F /* HomeWork.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,28 +394,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E1C417B75308CAB148F68E7E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NibmConnectTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -380,11 +403,19 @@
 			files = (
 				AC336AD22290328800909EF7 /* UIView+Extension.swift in Sources */,
 				AC336AD02290309400909EF7 /* HomeViewController.swift in Sources */,
+				ACE3F3A622985368001B8BE6 /* MyProfileViewController.swift in Sources */,
+				ACF3B0062292F7AB0025162F /* HomeWorkViewController.swift in Sources */,
 				AC336ACE2290308500909EF7 /* SignInViewController.swift in Sources */,
+				ACF3AFFC22927FCE0025162F /* ImageService.swift in Sources */,
+				AC49C03D2297A27A00DEFAFF /* StudentProfileViewController.swift in Sources */,
 				AC336ACC2290307900909EF7 /* SignUpViewController.swift in Sources */,
+				ACE3F3A822985468001B8BE6 /* User.swift in Sources */,
+				ACB24B082291D8BD00614B9B /* Home.swift in Sources */,
 				AC52234D228F93D400BB121E /* ViewController.swift in Sources */,
+				ACF3B0032292F6AA0025162F /* HomeWorkTableViewCell.swift in Sources */,
+				ACE3F3AA2298632E001B8BE6 /* UserService.swift in Sources */,
 				AC52234B228F93D400BB121E /* AppDelegate.swift in Sources */,
-				AC336AD42290338800909EF7 /* RoundedWhiteButton.swift in Sources */,
+				ACB24B052291C6A200614B9B /* HomeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +611,6 @@
 		};
 		AC522368228F93D500BB121E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 248D84493BC55E729949529B /* Pods-NibmConnectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -601,7 +631,6 @@
 		};
 		AC522369228F93D500BB121E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5677B3CEA572399385946B96 /* Pods-NibmConnectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

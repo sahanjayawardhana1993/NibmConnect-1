@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9zi-rR-nDr">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="az0-O9-srX">
+            <objects>
+                <viewController id="Ndj-ZI-l0k" customClass="HomeViewController" customModule="NibmConnect" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sGf-zf-6QL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oyl-Ho-diw">
+                                <rect key="frame" x="322" y="804" width="72" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="19C-el-NnX"/>
+                                    <constraint firstAttribute="height" constant="72" id="FL5-7F-rNU"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="iconplus2"/>
+                                <connections>
+                                    <segue destination="1qu-cz-HMG" kind="show" identifier="HomeWork" id="PVO-su-QXQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Jf-6y-vHW" firstAttribute="trailing" secondItem="Oyl-Ho-diw" secondAttribute="trailing" constant="20" id="97l-eR-nj2"/>
+                            <constraint firstAttribute="bottom" secondItem="Oyl-Ho-diw" secondAttribute="bottom" constant="20" id="E56-7i-oov"/>
+                            <constraint firstItem="6Jf-6y-vHW" firstAttribute="trailing" secondItem="Oyl-Ho-diw" secondAttribute="trailing" constant="20" id="Q4G-qy-3I0"/>
+                            <constraint firstAttribute="bottom" secondItem="Oyl-Ho-diw" secondAttribute="bottom" constant="20" id="o7C-6q-AlW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Jf-6y-vHW"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="9IU-UG-1Qz">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IZY-XS-93D">
+                            <rect key="frame" x="172.5" y="7" width="69" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="My Profile"/>
+                            <connections>
+                                <action selector="myProfile:" destination="Ndj-ZI-l0k" eventType="touchUpInside" id="g70-bH-CJG"/>
+                            </connections>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Sv4-M9-lMw">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="maE-gR-QVy">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="handleLogout:" destination="PGF-mG-SuL" eventType="touchUpInside" id="59X-Bo-Wjr"/>
+                                    <action selector="handleLogout:" destination="Ndj-ZI-l0k" eventType="touchUpInside" id="Xd5-Ow-8iQ"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="floatButton" destination="Oyl-Ho-diw" id="7RC-d3-Nuv"/>
+                        <segue destination="A7y-nu-wJu" kind="show" identifier="StudentProfile" id="E23-Du-FMH"/>
+                        <segue destination="xFb-0u-3Mo" kind="show" identifier="MyProfile" id="fgF-22-7Ek"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GTm-Gs-ExM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="PGF-mG-SuL" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="844.92753623188412" y="-145.3125"/>
+        </scene>
+        <!--MyProfile-->
+        <scene sceneID="HTn-FL-fnl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyProfile" id="xFb-0u-3Mo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nuf-2t-82o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1456" y="-302"/>
+        </scene>
+        <!--StudentProfile-->
+        <scene sceneID="Nhe-hD-N6S">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StudentProfile" id="A7y-nu-wJu" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jBJ-Sb-qVv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1457" y="-240"/>
+        </scene>
+        <!--HomeWork-->
+        <scene sceneID="eIq-3w-8AW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HomeWork" id="1qu-cz-HMG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TKl-QL-bg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1488" y="29"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Hf-Eo-bVA">
+            <objects>
+                <navigationController storyboardIdentifier="Home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9zi-rR-nDr" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2dy-BL-xBz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ndj-ZI-l0k" kind="relationship" relationship="rootViewController" id="2hR-md-vFR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gas-lY-kA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61" y="-145"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconplus2" width="500" height="500"/>
+    </resources>
+</document>
